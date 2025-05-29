@@ -1095,7 +1095,7 @@ const PlanCreate = () => {
                                 return;
                             }
 
-                            await guardarPlanActividad();
+                            await actualizarIdPlan();
                             sleep(1000).then(() => window.location.reload());
                         }}
                     >
